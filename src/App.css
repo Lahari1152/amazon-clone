@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Navbar{
+  background-color: #282c34;
+  height: 70px;
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.search{
+  display: flex;
+  background-color: #ccc;
+  border-radius: 5px;
+  padding: 0px 10px;
+}
+
+.free{
+  background-image: linear-gradient(to bottom, white, rgba(255, 255, 255, 0));
+}
+.search p{
+  margin: auto;
+  color: black;
+}
+.prod-area{
+  position: relative;
+  top: -150px;
+}
+.prod-card{
+  padding: 10px;
+  background-color: white;
+}
+
+.tags-area{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #212838;
+  color: white;
+  font-size: 16px;
+}
+
+.tags-area p {
+  margin: 15px 15px;
+}
+
+.prod-card img{
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.prod-card p{
+  color: green;
+  font-size: 12px;
+}
+.prod-card h3{
+  font-size: 15px;
+}
+.search input{
+  margin: 0px 10px;
+  border: 0px;
+  font-size: ;
+}
+.little-action{
+  margin-top: 20px;
+}
+
+.little-action p {
+  font-size: 12px;
+  line-height: 0;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
